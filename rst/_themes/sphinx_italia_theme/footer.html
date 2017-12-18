@@ -14,7 +14,6 @@
 
   <div role="contentinfo">
     <p>
-		<a href="http://www.agid.gov.it">Agenzia per l'Italia Digitale</a> - <a href="https://creativecommons.org/licenses/by/4.0/">Licence: CC-BY 4.0</a> - 
     {%- if show_copyright %}
       {%- if hasdoc('copyright') %}
         {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
@@ -37,7 +36,7 @@
         </span>
       {% endtrans %}
     {%- elif last_updated %}
-      {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+      {% trans last_updated=last_updated|e %}</br>Last updated on {{ last_updated }}.{% endtrans %}
     {%- endif %}
 
     </p>

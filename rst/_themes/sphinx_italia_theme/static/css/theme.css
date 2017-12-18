@@ -6268,8 +6268,14 @@ button[disabled] {
   clear: both;
 }
 
-div.rst-pro {
-  display: none !important;
-}
+.wy-table-responsive table td {
+      /* !important prevents the common CSS stylesheets from overriding
+         this as on RTD they are loaded after this stylesheet */
+      white-space: normal !important;
+   }
+
+   .wy-table-responsive {
+      overflow: visible !important;
+   }
 
 /*# sourceMappingURL=theme.css.map */
