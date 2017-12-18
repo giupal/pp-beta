@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # -- PROJECT Variables ----------------------------------------------------
-settings_project_name = '#Datipubblici - linee guida patrimonio informativo pubblico'
+settings_project_name = u"Datipubblici - linee guida patrimonio informativo pubblico"
 settings_copyright_year = '2017'
 settings_copyright_name = 'AgID - Agenzia per l\'Italia Digitale'
 settings_doc_version = 'versione 1.0 - 2017'
