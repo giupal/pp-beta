@@ -50,6 +50,7 @@ Il livello infrastrutturale è rappresentato dall’infrastruttura che ospita i 
 
 Soluzioni Open Data per i portali Web
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 .. note::
   **Si raccomanda di non creare tanti portali diversi per singole iniziative ma, ove possibile, di raccordarle** per facilitare il reperimento e il riutilizzo dei dati da parte degli utenti finali.
 
@@ -67,6 +68,7 @@ Di seguito si riportano alcune possibili soluzioni per la creazione di piattafor
 
 Requisiti per la pubblicazione di dati di livello 4 e 5
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Linked Data utilizzano URI per risolvere il problema dell'identità; gli URI devono essere persistenti e dereferenziabili.
 Una politica per garantire URI persistenti e fornire aspetti di naming è proposta dalla commissione europea con il documento sulle `“10 regole per URI persistenti” <https://joinup.ec.europa.eu/sites/default/files/c0/7d/10/D7.1.3%20-%20Study%20on%20persistent%20URIs.pdf>`__.  Facendo riferimento a tale documento, per la creazione di URI persistenti sono da evitare quelli che contengano:
 
@@ -81,6 +83,7 @@ Sono, invece, da ritenersi buone pratiche le seguenti:
 
   + strutturare l’URI come segue:
         http://{dominio}/{tipo}/{concetto}/{riferimento}
+		
     dove gli elementi che compongono la URI sono:
 
       + *Dominio*: il dominio Web su cui reperire la risorsa
@@ -114,6 +117,7 @@ Infine, esistono situazioni, tipicamente con accesso da Web browser, in cui è r
 
 dati.gov.it
 -----------
+
 .. note::
   **AZIONE 15: ASSICURATI CHE I METADATI RELATIVI AI TUOI DATASET SIANO PRESENTI NEL PORTALE NAZIONALE DEI DATI ...**
 
@@ -165,6 +169,7 @@ La tabella seguente fornisce indicazioni di massima sulle modalità di alimentaz
 
 Governance per la raccolta dei dati dalle PA
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Al fine di evitare duplicazioni di dati e di ridurre la complessità della raccolta centrale di informazioni sui dataset presenti nei cataloghi delle amministrazioni, si **adotta un modello di governance del processo di alimentazione del catalogo nazionale dati.gov.it**. Il modello di governance prevede di avvalersi dei principi di sussidiarietà verticale, già in precedenza menzionati.
 Nell'ambito locale, il modello **attribuisce alle Regioni il ruolo di aggregatori territoriali** [9]_. In sostanza, la Regione, ove possibile, si coordina con le varie amministrazioni che operano nell'ambito territoriale della Regione stessa, raccogliendo le informazioni sui dataset disponibili in Open Data e assicurando una adeguata frequenza di aggiornamento. Le amministrazioni locali delegano così la Regione all'esposizione dei propri metadati e **possono evitare di richiedere direttamente la raccolta degli stessi da parte del portale nazionale**; quest'ultimo si interfaccia quindi con i soli cataloghi regionali.
 
@@ -179,6 +184,7 @@ Lo stesso modello può applicarsi nei casi di amministrazioni centrali che svolg
 
 Evoluzione del portale dati.gov.it
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 L'evoluzione del portale dati.gov.it, come prevista dal piano triennale, coinvolge diversi aspetti sia tecnici che di contenuto.
 Dal punto di vista dei contenuti, l'attuale dati.gov.it è il catalogo di dati aperti nazionale. A corredo del catalogo, sul relativo sito Web sono pubblicate ulteriori informazioni sul tema dei dati aperti (e.g., riferimenti normativi e alle linee guida, eventi, operazioni di monitoraggio).
 Nell'evoluzione del portale, oltre a queste informazioni, si prevede, tra gli altri, di:
@@ -216,3 +222,4 @@ Ulteriori elementi di federazione
 I meccanismi di alimentazione del portale nazionale abilitano, di fatto, una federazione tra portali di pubbliche amministrazioni. Si possono individuare anche ulteriori modalità di federazione e condivisione.
 Per esempio, un'amministrazione può mettere a disposizione di altre la propria soluzione Open Data (e.g., un'amministrazione regionale dotata di una piattaforma Open Data la può mettere a disposizione dei comuni della regione, e si raccomanda di farlo).
 Nell’ambito invece del paradigma Linked Data, si segnala che il W3C ha definito uno standard per `federare SPARQL endpoint <https://www.w3.org/TR/sparql11-federated-query/>`__. Lo standard prevede una sintassi aggiuntiva per SPARQL in grado di considerare, in una stessa “query”, dati provenienti da SPARQL endpoint differenti. Inoltre, lo standard prevede funzioni per cui molteplici SPARQL endpoint gestiscono, in maniera del tutto trasparente per l’utente, l'invio della “query” a più endpoint o la scomposizione della “query” e la ricomposizione dei frammenti del risultato finale. In generale, al meglio delle nostre conoscenze, la federazione di SPARQL endpoint rimane ancora confinata a soluzioni di ricerca.
+
